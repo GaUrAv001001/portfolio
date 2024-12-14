@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slide > div {
+    margin: 0 30px;
+}
+
+/* Reduce margin for medium screens */
+@media (max-width: 768px) {
+    .slick-slide > div {
+      margin: 0 15px;
+    }
+  }
+  
+  /* Reduce margin further for small screens */
+  @media (max-width: 480px) {
+    .slick-slide > div {
+      margin: 0 10px;
+    }
+  }
+
+  .slick-arrow.slick-prev::before, 
+  .slick-arrow.slick-next::before {
+    color: white; /* Change this to your desired color */
+    font-size: 24px; /* Optional: Adjust the size if needed */
+    opacity: 1; /* Ensure it's fully visible */
+  }

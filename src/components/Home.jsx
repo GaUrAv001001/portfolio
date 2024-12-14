@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row mx-10 justify-center items-center min-h-screen ">
-        <Grid container xs={12}>
+        <Grid item container xs={12}>
           <Grid item xs={12} sm={12} md={7}>
             {/* section-1 */}
             <div className="text-white m-auto w-full">
-              <div className="text-white text-5xl my-5">
+              <div className="text-orange-500 text-5xl my-5">
                 <TypewriterComponent
                   options={{
                     autoStart: true,
@@ -29,8 +29,8 @@ const Home = () => {
                 share my work and grow in the tech field.
               </p>
               <div className="my-4">
-                <button className="bg-white hover:scale-105 transform transition-all duration-300 text-black rounded p-1">
-                  Contact me
+                <button className=" border-2 border-orange-600 hover:scale-105 transform transition-all duration-300 text-[#CDCDCD] rounded p-2">
+                  Contact me 
                 </button>
               </div>
             </div>

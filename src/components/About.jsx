@@ -8,7 +8,7 @@ const About = () => {
         <Grid container whiteSpace={4} xl={12}>
           {/* section-1 */}
           <Grid item sm={12} md={4}>
-            <div className="flex justify-center items-center m-5 text-white text-7xl">
+            <div style={{ fontFamily: "'Playfair Display', serif" }} className="flex justify-center items-center m-5 text-orange-500 text-7xl">
               About Me
             </div>
           </Grid>
@@ -27,7 +27,7 @@ const About = () => {
               problem-solving skills. Feel free to check out my work and connect
               with me!
             </div>
-            <button className="mt-10 text-lg bg-white text-black p-2 rounded hover:scale-105 transform transition-all duration-300">
+            <button className="mt-10 text-lg  text-white border-2 border-orange-600 p-2 rounded hover:scale-105 transform transition-all duration-300">
               Download Resume
             </button>
           </Grid>
